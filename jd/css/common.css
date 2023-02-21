@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 1190px;
+}
+
+.bgColor {
+  background-color: #f4f4f4;
+}
+
+.w {
+  margin: auto;
+  width: 1190px;
+}
+
+.navigation {
+  border-bottom: 1px solid #ddd;
+  background-color: #e3e4e5;
+}
