@@ -1,0 +1,136 @@
+// 重置样式(通用)
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+em,
+i {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+button {
+  cursor: pointer;
+  border: 0 none;
+  outline: 0;
+}
+input {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// 常用样式(通用)
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.hide,
+.none {
+  display: none;
+}
+
+// 网站个性样式
+@themeColor: #f10214; // 主题色
+@bgColor: #f4f4f4; // 背景色
+@borderColor: #ddd; //边框色
+@defaultFontColor: #999; // 默认字体色
+@w: 1190px; // 内容宽度
+
+html {
+  min-width: @w;
+  color: #666;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  background-color: @bgColor;
+}
+a {
+  color: @defaultFontColor;
+}
+a:hover {
+  color: @themeColor;
+}
+
+.content {
+  margin: 0 auto;
+  width: @w;
+}
+
+// 头部样式
+#shortcut {
+  border-bottom: 1px solid @borderColor;
+  background-color: #e3e4e5;
+  height: 30px;
+  line-height: 30px;
+
+  li {
+    float: left;
+    a {
+      padding: 0 6px;
+    }
+  }
+}
+.navigation {
+  background-color: #fff;
+  padding: 30px 0;
+  .logo {
+    width: 190px;
+    height: 120px;
+  }
+  .searchbox {
+    width: 550px;
+    height: 35px;
+    border: 2px solid @themeColor;
+    position: relative;
+    input {
+      border: 0 none;
+      width: 485px;
+      height: 100%;
+      padding: 2px 44px 2px 17px;
+    }
+    .icon-camera {
+      position: absolute;
+      right: 72px;
+      top: 2px;
+      font-size: 18px;
+    }
+    button {
+      width: 58px;
+      height: 100%;
+      background-color: @themeColor;
+      color: #fff;
+      font-size: 22px;
+    }
+  }
+}

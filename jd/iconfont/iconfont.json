@@ -1,0 +1,44 @@
+{
+  "id": "3910819",
+  "name": "电商",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "电商相关的图标",
+  "glyphs": [
+    {
+      "icon_id": "624530",
+      "name": "购物车",
+      "font_class": "cart",
+      "unicode": "666",
+      "unicode_decimal": 1638
+    },
+    {
+      "icon_id": "630128",
+      "name": "照相机",
+      "font_class": "camera",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "1304890",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1727524",
+      "name": "304错误、关闭、取消-方框",
+      "font_class": "close",
+      "unicode": "e8e8",
+      "unicode_decimal": 59624
+    },
+    {
+      "icon_id": "15838499",
+      "name": "map",
+      "font_class": "map",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    }
+  ]
+}
